@@ -1,5 +1,9 @@
 /* Styles for Mobile devices */
-
+.container-footer{
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 .footer {
   margin-bottom: 20px;
 }
@@ -128,6 +132,11 @@
 }
 
 @media screen and ((min-width: 767px)) {
+  .container-footer{
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
   .footeer-case {
     background: #0c0c0c;
     border-radius: 30px;
@@ -191,4 +200,23 @@
     align-items: center;
     justify-content: space-between;
   }
+}
+@media screen and ((min-width: 1280px)){
+  .container-footer{
+    max-width: 1280px;
+  }
+  .footer-intro{
+    position: relative;
+  }
+  .footer-info {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    
+  }
+  .footer-tablet-wraper{
+    margin-bottom: 126px;
+  }
+  
 }
