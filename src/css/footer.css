@@ -51,6 +51,7 @@
   text-align: center;
   color: #fbfbfb;
   padding: 14px 20px;
+  transition: color 250ms ease-in-out;
 }
 
 .footer-info-text {
@@ -83,6 +84,7 @@
   line-height: 1.33333;
   text-align: center;
   color: #fbfbfb;
+  transition: color 250ms ease-in-out;
 }
 .footer-nav-addres {
   max-width: 83px;
@@ -118,6 +120,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
+  transition: color 250ms ease-in-out;
 }
 .footer-copyright-list {
   display: flex;
@@ -130,7 +133,9 @@
 .footer-social-link:hover .footer-social-icon {
   color: #ffffff;
 }
-
+.footer-number-link:hover, .footer-nav-item a:hover, .footer-copyrigth-item a:hover{
+  color: #fff;
+}
 @media screen and ((min-width: 767px)) {
   .container-footer{
     max-width: 768px;
