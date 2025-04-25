@@ -1,0 +1,33 @@
+.sale {}
+
+.sale-headline {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.sale-gallery {}
+
+.sale-item-gallery {}
+
+.sale-main-img {}
+
+.sale-card {}
+
+.sale-card-title {}
+
+.sale-product-tag {}
+
+.sale-price-block {}
+
+.sale-price {}
+
+.sale-old-price {}
+
+.sale-description {}
+
+.sale-tags {}
+
+.sale-tag {}
