@@ -24,10 +24,8 @@ dist-ssr
 *.sw?
 
 
-<<<<<<< HEAD
-partials/footer.html
-partials/contactus.html
+
 =======
 #pull request list*
 pullrequestes-list.txt
->>>>>>> origin/main
+
