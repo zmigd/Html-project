@@ -1,7 +1,53 @@
-.title-catalog {
+.catalog {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.container {
+}
+
+.catalog-title {
   font-weight: 600;
   font-size: 48px;
   line-height: 0.9;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+}
+
+.catalog-list {
+}
+
+.product-item {
+}
+
+.product-item-imgwrap {
+}
+
+.product-subtitle {
+  display: block;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-price {
+}
+
+.catalog-button {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  height: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
