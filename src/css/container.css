@@ -10,7 +10,7 @@
   padding: 0 20px;
 }
 
-.section {
+section {
   margin-bottom: 60px;
 }
 
@@ -20,17 +20,18 @@
     max-width: 768px;
     padding: 0 32px;
   }
-  .section {
+  section {
     margin-bottom: 80px;
   }
 }
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 0 65px;
   }
-  .section {
+  section {
     margin-bottom: 100px;
   }
 }
