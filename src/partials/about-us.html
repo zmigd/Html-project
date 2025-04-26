@@ -1,6 +1,6 @@
 <section class="about-main" id="about-section">
   <div class="container about-inner">
-    <div class="container about-one">
+    <div class="about-one">
       <h2 class="about-subtitle">About Us</h2>
       <ul class="about-list">
         <li class="about-item">
@@ -26,30 +26,34 @@
         >
       </div>
     </div>
-    <div class="container about-two">
+    <div class="about-two">
       <picture class="about-picture">
         <source
           media="(min-width: 1280px)"
-          srcset="/img/about/about-us.webp 1x, /img/about/about-us@2x.webp 2x"
+          srcset="
+            ../img/about/about-us.webp    1x,
+            ../img/about/about-us@2x.webp 2x
+          "
         />
         <source
           media="(min-width: 768px)"
           srcset="
-            /img/about/about-us-tab.webp    1x,
-            /img/about/about-us-tab@2x.webp 2x
+            ../img/about/about-us-tab.webp    1x,
+            ../img/about/about-us-tab@2x.webp 2x
           "
         />
         <source
           media="(max-width: 767px)"
           srcset="
-            /img/about/about-us-mob.webp    1x,
-            /img/about/about-us-mob@2x.webp 2x
+            ../img/about/about-us-mob.webp    1x,
+            ../img/about/about-us-mob@2x.webp 2x
           "
         />
-
         <img
           class="about-img"
-          src="/img/about/about-us-mob.webp"
+          src="../img/about/about-us.webp"
+          width="530"
+          height="532"
           alt="About Us"
         />
       </picture>
