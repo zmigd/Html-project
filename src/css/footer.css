@@ -16,7 +16,6 @@
 
 .footer-logo a {
   display: inline-block;
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -44,7 +43,6 @@
   display: inline-block;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
@@ -56,7 +54,6 @@
 }
 
 .footer-info-text {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -79,7 +76,6 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
@@ -89,7 +85,6 @@
 }
 .footer-nav-addres {
   max-width: 83px;
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
@@ -109,7 +104,6 @@
 }
 .footer-coopyrigth-text,
 .footer-copyrigth-item a {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 10px;
   line-height: 1.4;
