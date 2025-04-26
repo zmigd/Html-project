@@ -138,6 +138,9 @@
     margin: 0 auto;
     padding: 0 32px;
   }
+  .footer {
+    margin-bottom: 32px;
+  }
   .footeer-case {
     background: #0c0c0c;
     border-radius: 30px;
@@ -160,6 +163,7 @@
     line-height: 1.28571;
   }
   .footer-nav-addres {
+    font-style: normal;
     font-size: 14px;
     line-height: 1.28571;
   }
