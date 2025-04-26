@@ -1,6 +1,5 @@
-
 /* Styles for Mobile devices */
-.container-footer{
+.container-footer {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
@@ -89,6 +88,7 @@
   font-size: 12px;
   line-height: 1.33333;
   color: #fbfbfb;
+  font-style: normal;
 }
 
 .footer-nav {
@@ -128,11 +128,13 @@
 .footer-social-link:hover .footer-social-icon {
   color: #ffffff;
 }
-.footer-number-link:hover, .footer-nav-item a:hover, .footer-copyrigth-item a:hover{
+.footer-number-link:hover,
+.footer-nav-item a:hover,
+.footer-copyrigth-item a:hover {
   color: #fff;
 }
 @media screen and ((min-width: 767px)) {
-  .container-footer{
+  .container-footer {
     max-width: 768px;
     margin: 0 auto;
     padding: 0 32px;
@@ -201,11 +203,11 @@
     justify-content: space-between;
   }
 }
-@media screen and ((min-width: 1280px)){
-  .container-footer{
+@media screen and ((min-width: 1280px)) {
+  .container-footer {
     max-width: 1280px;
   }
-  .footer-intro{
+  .footer-intro {
     position: relative;
   }
   .footer-info {
@@ -213,11 +215,8 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    
   }
-  .footer-tablet-wraper{
+  .footer-tablet-wraper {
     margin-bottom: 126px;
   }
-  
 }
-
