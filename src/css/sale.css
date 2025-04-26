@@ -1,4 +1,6 @@
-.sale {}
+.sale {
+  margin: 30px 0;
+}
 
 .sale-headline {
   font-weight: 600;
@@ -8,26 +10,118 @@
   color: #0c0c0c;
 }
 
-.sale-gallery {}
+.sale-gallery {
+  display: flex;
+  gap: 5px;
+  margin-top: 24px;
+}
 
-.sale-item-gallery {}
+.sale-item-gallery {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  background-color: #f3f3f3;
+  flex-basis: calc((100% - 15px) /4) ;
+}
 
-.sale-main-img {}
+.sale-main-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  width: 335px;
+  height: 385px;
+  background-color: #f3f3f3;
+  margin: 20px 0;
+}
 
-.sale-card {}
+.sale-main-img img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
 
-.sale-card-title {}
+.sale-card {
+  padding: 48px 28px;
+  background-color: #3350e9;
+  border-radius: 30px;
+}
 
-.sale-product-tag {}
+.sale-card-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
 
-.sale-price-block {}
+.sale-product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
+}
 
-.sale-price {}
+.sale-price-block {
 
-.sale-old-price {}
+}
 
-.sale-description {}
+.sale-price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.1);
+  padding: 8px 12px;
+  margin-right: 9px;
+}
 
-.sale-tags {}
+.sale-old-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
 
-.sale-tag {}
+.sale-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin: 28px 0;
+}
+
+.sale-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sale-tag {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.3;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+@media screen (min-width: 768px) {
+  
+}
+
+@media screen (min-width: 1280px) {}
