@@ -407,9 +407,9 @@ ul {
   .icon:focus,
   .icon:hover {
     fill: #3350e9;
+
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-
   .mobile-menu-ic:focus,
   .mobile-menu-ic:hover {
     border: 1px solid rgba(51, 80, 233, 0.1);
