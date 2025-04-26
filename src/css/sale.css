@@ -1,13 +1,5 @@
 .sale {
-<<<<<<< HEAD
   margin: 30px 0;
-=======
-}
-
-.sale-content {
-  display: flex;
-  flex-direction: column;
->>>>>>> 2850b33bc03852cc56690e224f99b7ace7438950
 }
 
 .sale-headline {
@@ -16,15 +8,11 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-<<<<<<< HEAD
-=======
   margin-bottom: 40px;
->>>>>>> 2850b33bc03852cc56690e224f99b7ace7438950
 }
 
 .sale-gallery {
   display: flex;
-<<<<<<< HEAD
   gap: 5px;
   margin-top: 24px;
 }
@@ -62,7 +50,6 @@
 .sale-card {
   padding: 48px 28px;
   background-color: #3350e9;
-=======
   justify-content: space-between;
   margin-bottom: 20px;
 }
@@ -97,41 +84,28 @@
   background-color: #3350e9;
   color: #fbfbfb;
   padding: 40px 28px;
->>>>>>> 2850b33bc03852cc56690e224f99b7ace7438950
   border-radius: 30px;
 }
 
 .sale-card-title {
   font-weight: 600;
   font-size: 24px;
-<<<<<<< HEAD
   line-height: 1.17;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-=======
-  line-height: 1.16;
-  letter-spacing: -0.02em;
->>>>>>> 2850b33bc03852cc56690e224f99b7ace7438950
   margin-bottom: 10px;
 }
 
 .sale-product-tag {
   font-weight: 400;
   font-size: 14px;
-<<<<<<< HEAD
   line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.5);
-=======
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  color: #fbfbfb80;
->>>>>>> 2850b33bc03852cc56690e224f99b7ace7438950
   margin-bottom: 20px;
 }
 
 .sale-price-block {
-<<<<<<< HEAD
 
 }
 
@@ -144,7 +118,7 @@
   border-radius: 8px;
   background-color: rgba(251, 251, 251, 0.1);
   padding: 8px 12px;
-=======
+  
   display: flex;
   align-items: center;
   margin-bottom: 28px;
@@ -154,12 +128,10 @@
   padding: 8px 12px;
   background-color: #fbfbfb1a;
   border-radius: 8px;
->>>>>>> 2850b33bc03852cc56690e224f99b7ace7438950
   margin-right: 9px;
 }
 
 .sale-old-price {
-<<<<<<< HEAD
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -175,7 +147,6 @@
   letter-spacing: -0.02em;
   color: rgba(251, 251, 251, 0.7);
   margin: 28px 0;
-=======
   font-family: 'Gilroy', sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -193,12 +164,10 @@
   letter-spacing: -0.02em;
   color: #fbfbfbb2;
   margin-bottom: 28px;
->>>>>>> 2850b33bc03852cc56690e224f99b7ace7438950
 }
 
 .sale-tags {
   display: flex;
-<<<<<<< HEAD
   gap: 8px;
   flex-wrap: wrap;
 }
@@ -213,15 +182,9 @@
   padding: 8px 12px;
 }
 
-@media screen (min-width: 768px) {
-  
-}
+@media screen (min-width: 768px) {}
 
 @media screen (min-width: 1280px) {}
-=======
-  flex-wrap: wrap;
-  gap: 8px;
-}
 
 .sale-tag {
   padding: 8px 12px;
@@ -312,4 +275,3 @@
     max-width: 530px;
   }
 }
->>>>>>> 2850b33bc03852cc56690e224f99b7ace7438950
