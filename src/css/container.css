@@ -1,17 +1,8 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 /* Styles for Mobile devices */
 .container {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-section {
-  margin-bottom: 60px;
 }
 
 /* Styles for Tablet devices */
@@ -20,9 +11,6 @@ section {
     max-width: 768px;
     padding: 0 32px;
   }
-  section {
-    margin-bottom: 80px;
-  }
 }
 
 /* Styles for Desktop devices */
@@ -30,8 +18,5 @@ section {
   .container {
     max-width: 1280px;
     padding: 0 65px;
-  }
-  section {
-    margin-bottom: 100px;
   }
 }
