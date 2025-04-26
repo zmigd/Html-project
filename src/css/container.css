@@ -1,4 +1,11 @@
 /* Styles for Mobile devices */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .container {
   max-width: 375px;
   margin: 0 auto;
