@@ -1,6 +1,5 @@
 .hero {
-  padding-top: 80px;
-  margin-bottom: 60px;
+  padding-top: 60px;
 }
 
 .hero-content {
@@ -85,6 +84,11 @@
   color: #0c0c0c;
 }
 
+.hero-watch-img {
+  display: block;
+  border-radius: 50px;
+}
+
 .hero-watch-img img {
   width: 100%;
 }
@@ -154,12 +158,6 @@
 @media only screen and (min-width: 1280px) {
   .hero {
     margin-bottom: 100px;
-  }
-
-  .test {
-    margin-top: 100px;
-    width: 100%;
-    background-color: red;
   }
 
   .hero-text {
