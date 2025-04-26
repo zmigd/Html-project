@@ -123,6 +123,11 @@
 }
 
 @media only screen and (min-width: 767px) {
+  .sale-headline {
+    font-size: 48px;
+    line-height: 0.91;
+  }
+
   .sale-card {
     padding: 60px;
   }
