@@ -1,8 +1,3 @@
-.catalog {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .catalog-title {
   margin: 0 auto;
   text-align: left;
@@ -59,7 +54,7 @@
 
 .product-subtitle {
   display: block;
-  max-width: 304px;
+  max-width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -101,11 +96,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .catalog {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
   .container {
     padding: 0 32px;
   }
@@ -161,11 +151,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .catalog {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
   .container {
     padding: 0 65px;
   }
