@@ -1,8 +1,6 @@
 .hero {
   padding-top: 80px;
   margin-bottom: 60px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .hero-content {
@@ -156,6 +154,12 @@
 @media only screen and (min-width: 1280px) {
   .hero {
     margin-bottom: 100px;
+  }
+
+  .test {
+    margin-top: 100px;
+    width: 100%;
+    background-color: red;
   }
 
   .hero-text {
