@@ -16,7 +16,11 @@
 @import url('./hero.css');
 @import url('./about-us.css');
 @import url('./catalog.css');
+<<<<<<< HEAD
+@import url('./sale.css');
+=======
 @import url('./advertisement.css');
+>>>>>>> origin/main
 @import url('./reviews.css');
 @import url('./contactUs.css');
 @import url('./footer.css');
