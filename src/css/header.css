@@ -5,11 +5,9 @@ ul {
 .header {
   padding: 0;
 }
-
 .header-navi {
   border-bottom: 1px solid #0c0c0c1a;
 }
-
 .nav-logo {
   display: inline-flex;
   align-items: center;
@@ -70,11 +68,12 @@ ul {
     z-index: 999;
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
     background-color: #000;
-    background-image: url('../header.img/webp/image-mob.webp');
+    background-image: url('/img/header/webp/image-mob.webp') 1x,
+      url('/img/header/webp/image71mob2k.webp') 2x;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,6 +81,7 @@ ul {
     visibility: hidden;
     pointer-events: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: 200px;
   }
   .mobile-menu.is-open {
     opacity: 1;
@@ -198,11 +198,12 @@ ul {
   .mobile-menu {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 330px;
     height: 100%;
     background-color: #000;
-    background-image: url('../header.img/webp/image\ 71tab.webp');
+    background-image: url('/img/header/webp/image71tab.webp') 1x,
+      url('/img/header/webp/image71tabx2k.webp') 2x;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -323,11 +324,14 @@ ul {
   }
 }
 @media screen and (min-width: 1280px) {
-  .container-nav {
+  .mobile-menu-a .container-nav {
     display: flex;
     align-items: center;
-    max-width: 1280px;
+    min-width: 1280px;
     padding: 0 65px;
+  }
+  .container-nav {
+    min-width: 1280px;
   }
   .header-nav {
     display: flex;
@@ -411,7 +415,6 @@ ul {
   .icon:focus,
   .icon:hover {
     fill: #3350e9;
-
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .mobile-menu-ic:focus,
@@ -423,5 +426,12 @@ ul {
   }
   .mobile-menu {
     display: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .mobile-menu {
+    display: none !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
   }
 }
