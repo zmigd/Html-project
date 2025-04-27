@@ -17,6 +17,31 @@
   margin-bottom: 40px;
 }
 
+.catalog-list:not(:target) .product-item:nth-child(n + 5) {
+  display: none;
+}
+
+.catalog-list:target .product-item:nth-child(n + 5) {
+  display: block;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.catalog-list:target + .catalog-button {
+  display: none;
+}
+
+/* Анімація появи */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .product-item {
   box-sizing: border-box;
   width: 100%;
@@ -163,22 +188,4 @@
     max-width: 368px;
     padding: 23px 32px;
   }
-}
-
-/* Додамо плавність при показі */
-.product-item {
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-/* Змінимо підхід до приховування */
-@media (max-width: 767px) {
-  .catalog-list:not(.show-all) .product-item:nth-child(n + 5) {
-    display: none;
-  }
-}
-
-/* Замінимо .show-more на .show-all для узгодженості */
-.show-all .product-item {
-  display: block !important;
-  opacity: 1 !important;
 }
