@@ -196,12 +196,16 @@
                 opacity 0.3s ease, 
                 transform 0.3s ease;
     transform: scale(1);
-    transition: transform 0.3s ease, border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     }
 
-    .sale-item-gallery {
+    .sale-item-gallery,
+    .sale-tag {
       cursor: pointer;
+    }
+
+    .sale-tag {
+      transition: transform 0.3s ease, border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   
     .sale-main-img:hover,
@@ -209,6 +213,11 @@
     .sale-main-img:focus,
     .sale-item-gallery:focus {
       border: 1px solid #3350e9;
+      transform: scale(1.05);
+    }
+
+    .sale-tag:hover {
+      border: 1.5px solid rgba(251, 251, 251, 0.2);
       transform: scale(1.05);
     }
 }
