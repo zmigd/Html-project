@@ -209,6 +209,12 @@
         <p class="product-price">€395</p>
       </li>
     </ul>
-    <a href="#catalog-list" class="catalog-button show-more-btn"> Show more </a>
+    <button
+      class="catalog-button"
+      type="button"
+      onclick="this.previousElementSibling.classList.add('show-all'); this.style.display='none'"
+    >
+      Show more
+    </button>
   </div>
 </section>
