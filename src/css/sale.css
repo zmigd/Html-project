@@ -191,8 +191,19 @@
     }
   
     .sale-main-img {
-      width: 428px;
+    width: 428px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                opacity 0.3s ease, 
+                transform 0.3s ease;
+    transform: scale(1);
+    transition: transform 0.3s ease, border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
   
-
+    .sale-main-img:hover,
+    .sale-item-gallery:hover,
+    .sale-main-img:focus,
+    .sale-item-gallery:focus {
+      border: 1px solid #3350e9;
+      transform: scale(1.05);
+    }
 }
