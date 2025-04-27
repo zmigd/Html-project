@@ -72,8 +72,8 @@ ul {
     width: 100%;
     height: 100%;
     background-color: #000;
-    background-image: url('/img/header/webp/image71tab.webp') 1x,
-      url('/img/header/webp/image71tabx2k.webp') 2x;
+    background-image: url('/img/header/webp/image-mob.webp') 1x,
+      url('/img/header/webp/image71mob2k.webp') 2x;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -202,8 +202,8 @@ ul {
     width: 330px;
     height: 100%;
     background-color: #000;
-    background-image: url('/img/header/webp/image71mob.webp') 1x,
-      url('/img/header/webp/image71mob2k.webp') 2x;
+    background-image: url('/img/header/webp/image71tab.webp') 1x,
+      url('/img/header/webp/image71tabx2k.webp') 2x;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -327,8 +327,11 @@ ul {
   .mobile-menu-a .container-nav {
     display: flex;
     align-items: center;
-    max-width: 1280px;
+    min-width: 1280px;
     padding: 0 65px;
+  }
+  .container-nav {
+    min-width: 1280px;
   }
   .header-nav {
     display: flex;
