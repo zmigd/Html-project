@@ -179,4 +179,20 @@
     }
 }
 
-@media screen and (min-width: 1280px) {}
+@media screen and (min-width: 1280px) {
+    .wrapper1 {
+      margin: 0;
+      margin-right: 40px;
+    }
+    
+    .wrapper2 {
+      display: flex;
+      margin-top: 40px;
+    }
+  
+    .sale-main-img {
+      width: 428px;
+    }
+  
+
+}
