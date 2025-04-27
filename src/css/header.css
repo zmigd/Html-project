@@ -63,6 +63,9 @@ ul {
 }
 
 @media screen and (min-width: 1280px) {
+
+  .mobile-menu-a
+
   .container-nav {
     display: flex;
     align-items: center;
