@@ -82,7 +82,7 @@
   color: #fbfbfb;
   transition: color 250ms ease-in-out;
 }
-.footer-nav-addres a{
+.footer-nav-addres a {
   max-width: 83px;
   font-weight: 500;
   font-size: 12px;
@@ -91,8 +91,8 @@
   font-style: normal;
   transition: color 250ms ease-in-out;
 }
-.footer-nav-addres a:hover{
-color: #fff;
+.footer-nav-addres a:hover {
+  color: #fff;
 }
 
 .footer-nav {
