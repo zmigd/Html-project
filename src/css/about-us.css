@@ -138,6 +138,7 @@
   .about-two {
     flex: 1;
     min-width: 530px;
+    min-width: 530px;
     margin-left: 0;
     margin-right: 0;
     /* max-width: 530px; */
@@ -151,6 +152,7 @@
 }
 
 .about-img {
+  width: 100%;
   width: 100%;
   transition: filter 0.3s ease;
 }
