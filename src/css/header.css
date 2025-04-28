@@ -63,13 +63,10 @@ ul {
 }
 
 @media screen and (min-width: 1280px) {
-
-  .mobile-menu-a
-
-  .container-nav {
+  .mobile-menu-a .container-nav {
     display: flex;
     align-items: center;
-    max-width: 1280px;
+    width: 100%;
   }
 
   .header-nav {
@@ -175,5 +172,8 @@ ul {
 
   .burger-btm {
     display: none;
+  }
+  .container-nav {
+    min-width: 1280px;
   }
 }
