@@ -5,7 +5,7 @@
   padding: 0 20px;
 }
 .footer {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .footeer-case {
   background: #0c0c0c;
@@ -13,7 +13,7 @@
   padding: 40px 28px 28px 28px;
 }
 
-.footer-logo a {
+.footer-logo {
   display: inline-block;
   font-weight: 500;
   font-size: 16px;
@@ -82,13 +82,20 @@
   color: #fbfbfb;
   transition: color 250ms ease-in-out;
 }
-.footer-nav-addres {
+.footer-nav-addres a{
   max-width: 83px;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33333;
   color: #fbfbfb;
   font-style: normal;
+<<<<<<< HEAD
+=======
+  transition: color 250ms ease-in-out;
+}
+.footer-nav-addres a:hover{
+color: #fff;
+>>>>>>> 38136233ecb067499c59d779d2698906dd721be9
 }
 
 .footer-nav {
@@ -140,14 +147,14 @@
     padding: 0 32px;
   }
   .footer {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
   }
   .footeer-case {
     background: #0c0c0c;
     border-radius: 30px;
     padding: 40px 40px 28px 40px;
   }
-  .footer-logo a {
+  .footer-logo {
     font-size: 20px;
   }
   .footer-number-link {
