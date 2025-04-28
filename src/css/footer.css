@@ -185,6 +185,9 @@
     justify-content: space-between;
     margin-bottom: 86px;
   }
+  .footer-number {
+    margin-bottom: 0;
+  }
   .footer-info {
     max-width: 524px;
     margin: 0 auto;
