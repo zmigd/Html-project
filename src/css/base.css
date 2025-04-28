@@ -21,17 +21,17 @@ body {
 }
 
 section {
-  margin-bottom: 60px !important;
+  padding: 30px 0 !important;
 }
 
 @media only screen and (min-width: 768px) {
   section {
-    margin-bottom: 80px !important;
+    padding: 40px 0 !important;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   section {
-    margin-bottom: 100px !important;
+    padding: 50px 0 !important;
   }
 }
