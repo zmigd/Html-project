@@ -127,9 +127,11 @@
 }
 .footer-social-icon {
   color: #fbfbfb;
-  transition: color 250ms ease-in-out;
+  opacity: 0.8;
+  transition: opacity 250ms ease-in-out;
 }
 .footer-social-link:hover .footer-social-icon {
+  opacity: 1;
   color: #ffffff;
 }
 .footer-number-link:hover,
