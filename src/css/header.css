@@ -149,7 +149,7 @@ ul {
     position: absolute;
     bottom: -5px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, 50%);
     width: 8px;
     height: 8px;
     background-color: #3350e9;
@@ -285,7 +285,6 @@ ul {
     position: absolute;
     bottom: -5px;
     left: 50%;
-    transform: translateX(-50%);
     width: 8px;
     height: 8px;
     background-color: #3350e9;
