@@ -4,9 +4,13 @@ import injectHTML from 'vite-plugin-html-inject';
 import FullReload from 'vite-plugin-full-reload';
 import SortCss from 'postcss-sort-media-queries';
 
-export default defineConfig(({ command }) => {
+export default defineConfig(({ command, mode }) => {
+  // Определяем base в зависимости от деплоя
+  const isGithubPages = process.env.DEPLOY_ENV === 'github';
+  const base = command === 'serve' ? '/' : isGithubPages ? '/Html-project/' : '/';
+
   return {
-    base: command === 'serve' ? '/' : './', // <-- добавлено
+    base,
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
@@ -17,20 +21,13 @@ export default defineConfig(({ command }) => {
         input: glob.sync('./src/*.html'),
         output: {
           manualChunks(id) {
-            if (id.includes('node_modules')) {
-              return 'vendor';
-            }
+            if (id.includes('node_modules')) return 'vendor';
           },
-          entryFileNames: chunkInfo => {
-            if (chunkInfo.name === 'commonHelpers') {
-              return 'commonHelpers.js';
-            }
-            return '[name].js';
-          },
+          // JS с хешами
+          entryFileNames: 'assets/[name]-[hash].js',
+          // CSS и ассеты с хешами
           assetFileNames: assetInfo => {
-            if (assetInfo.name && assetInfo.name.endsWith('.html')) {
-              return '[name].[ext]';
-            }
+            if (assetInfo.name && assetInfo.name.endsWith('.html')) return '[name].[ext]';
             return 'assets/[name]-[hash][extname]';
           },
         },
@@ -41,9 +38,7 @@ export default defineConfig(({ command }) => {
     plugins: [
       injectHTML(),
       FullReload(['./src/**/**.html']),
-      SortCss({
-        sort: 'mobile-first',
-      }),
+      SortCss({ sort: 'mobile-first' }),
     ],
   };
 });
